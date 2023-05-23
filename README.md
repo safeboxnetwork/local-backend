@@ -1,3 +1,1 @@
-# local-backend
-
-Static local backend service
+# galaxis-internal-proxy
