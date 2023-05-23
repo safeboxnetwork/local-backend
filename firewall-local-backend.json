@@ -51,7 +51,7 @@
       { "TARGET_PORT": "80" },
       { "COMMENT": "firewall for local backend" }
       ], 
-	"EXTRA": "--privileged --rm",
+	"EXTRA": "--privileged --rm --security-opt apparmor=unconfined",
 	"DEPEND": "null",
 	"START_ON_BOOT": "false",
 	"CMD": "null",
