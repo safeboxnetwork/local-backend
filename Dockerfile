@@ -61,9 +61,8 @@ RUN \
 
 COPY files/ /etc/nginx/html/
 COPY conf/nginx.conf /etc/nginx/nginx.conf
-COPY entrypoint.sh /entrypoint.sh
 
 VOLUME ["/var/cache/nginx"]
 
-EXPOSE 80 443
-ENTRYPOINT "/entrypoint.sh"
+EXPOSE 80
+CMD ["nginx"]
