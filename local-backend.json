@@ -1,7 +1,7 @@
 {
 	"main": {
 		"SERVICE_NAME": "local-backend",
-		"DOMAIN": "DOMAIN_MAME" 
+		"DOMAIN": "DOMAIN_NAME" 
 	},
 	"containers": [
  		{
