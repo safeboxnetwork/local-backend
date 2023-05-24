@@ -5,9 +5,9 @@
     },
     "containers": [
       { 
-  "IMAGE": "registry.format.hu/local-backend",
+  	"IMAGE": "registry.format.hu/domain-check",
 	"UPDATE": "true",
-  "MEMORY": "64M",
+  	"MEMORY": "64M",
 	"NAME": "domain_checker", 
 	"ROLES": "domain_checker", 
 	"NETWORK": "host", 
