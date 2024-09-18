@@ -1,9 +1,6 @@
 FROM alpine:latest
 
-LABEL maintainer="gyurix" \
-    architecture="amd64/x86_64" 
-
-ENV NGINX_VERSION=1.23.1
+ENV NGINX_VERSION=1.25.4
 
 RUN \
   build_pkgs="build-base linux-headers openssl-dev pcre-dev wget zlib-dev" && \
