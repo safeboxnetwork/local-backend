@@ -25,7 +25,7 @@
                ],
 			"ENVS": [
 				],
-              "EXTRA": "null",
+              "EXTRA": "--restart=always --log-opt max-size=500m",
               "DEPEND": [ ],
               "START_ON_BOOT": "false",
               "CMD": "null",
