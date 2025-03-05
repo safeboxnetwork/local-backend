@@ -5,7 +5,7 @@
 	},
 	"containers": [
  		{
-      "IMAGE": "registry.format.hu/local-backend",
+      "IMAGE": "safebox/local-backend",
 			"UPDATE": "true",
       "NAME": "localbackend",
       "MEMORY": "64M",
